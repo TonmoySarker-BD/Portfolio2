@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", serif;
+}
+
+
+/* Nav Style */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: white;
+    padding: 1% 8%;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+
+.btn {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.8;
+    border-radius: 8px;
+    text-decoration: none;
+    align-self: start;
+}
+
+/* Banner Styles */
+
+.banner {
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner-container {
+    width: 80%;
+    position: absolute;
+}
+
+.banner-profile {
+    padding-bottom: 50px;
+}
+
+.banner-title {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    padding-bottom: 30px;
+}
+
+.banner-dis {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.banner-btn {
+    background-color: rgb(13, 19, 33);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+/* Main section style */
+main {
+    padding: 80px 10%;
+}
+
+/* web dev section */
+
+.web-dev {
+    background-color: #f1f1f1;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+/* dev1 style */
+
+.dev1 {
+    padding-bottom: 0px 50px 50px 50px;
+}
+
+.section-title1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    padding-bottom: 40px;
+}
+
+.section-dis1 {
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+
+/* dev2 style */
+
+.dev2 {
+    padding: 50px;
+    background-image: linear-gradient(to right, white, #f1f1f1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.dev2-text {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.dev2-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.dev2-dis {
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+/* dev3 style */
+
+.dev3 {
+    padding: 50px;
+    background-image: linear-gradient(to right, #f1f1f1, white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Section 3 Style */
+.section3 {
+    padding: 100px;
+}
+
+.sec3 {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.video-box {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: 1px solid rgba(13, 19, 33, 0.8);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+/* Section 4 Style */
+.section4 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sec4-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 5px;
+    text-align: center;
+
+}
+
+.s4box1 {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 76, 30, 0.05);
+    width: 30%;
+    height: 30%;
+}
+
+.s4box2 {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 30%;
+    height: auto;
+    height: 30%;
+
+}
+
+.s4box3 {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 223, 0, 0.05);
+    width: 30%;
+    height: auto;
+    height: 30%;
+}
+
+.card-head {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 15px 0px;
+}
+
+.s4card-dis {
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    margin: 15px 0px;
+    height: 30vb;
+    overflow: hidden;
+}
+
+.card-ig {
+    width: 10vb;
+    height: 10vb;
+    text-align: center;
+}
+
+
+/* Section 5 style */
+
+.section5 {
+
+    margin-top: 50px;
+    text-align: left;
+}
+
+.sec5-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5px;
+
+}
+
+.s5box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid rgba(13, 19, 33, 0.8);
+    border-radius: 10px;
+
+
+}
+
+
+.s5card-dis {
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 15px 0px;
+    height: 4vh;
+    overflow: hidden;
+}
+
+.card-img {
+    max-width: 100px;
+    max-height: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-text {
+    padding: 10px;
+    width: 80%;
+    text-align: left;
+}
+
+/* Section 6 Style */
+
+.section6 {
+    background-image: url("../assets/handshake.jpg");
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+
+    margin: 100px 0px 0px;
+
+}
+
+.sec6-title {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.sec6-dis {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.sec6-input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(13, 19, 33);
+    width: 30%;
+}
+
+.sec6-btn {
+    background-color: white;
+}
+
+
+/* Footer Style */
+
+
+footer {
+    background: rgba(13, 19, 33, 0.03);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+    padding: 50px 0px 0px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px 0px;
+}
