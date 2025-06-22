@@ -3,4 +3,4 @@
 <p>A passionate Web developer from Bogura, Bangladesh </p>
 <h2>Portfolio  Practice 2</h2>
 
-<img src="https://raw.githubusercontent.com/TonmoySarkerBD/Portfolio2/refs/heads/main/assets/b10a1.png" />
+<img src="https://raw.githubusercontent.com/TonmoySarker-BD/Portfolio2/refs/heads/main/assets/b10a1.png" />
